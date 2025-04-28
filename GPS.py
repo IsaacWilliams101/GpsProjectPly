@@ -1,5 +1,4 @@
 import gps
-import time
 try:
     session = gps.gps(mode=gps.WATCH_ENABLE)
     while 0 == session.read():
